@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <style>
+    body {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(31, 31, 31);
+      padding: 20px;
+      /* margin: 10px; */
+    }
+    header  nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      margin: 15px;
+    }
+    header nav a:hover{
+      color: #45c64a;
+    }
+
+   .img1 img {
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+      background-color: wheat;
+      margin-right: 30px;
+    }
+    .sec1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      text-align: left;
+    }
+    .text1 {
+      max-width: 50%;
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+    .text1 h1 {
+      font-size: 40px;
+    }
+    .text1 p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .text1 button {
+      background-color: #45c64a;
+      color: white;
+      font-size: 20px;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin: 10px;
+      border: none;
+    }
+    .text1 button:hover {
+      background-color: #3fa042;
+    }
+    footer {
+      text-align: center;
+      background-color: rgb(45, 44, 44);
+      /* margin-top: 40px; */
+      padding: 10px 0;
+    }
+    .ht {
+      display: flex;
+      justify-content: space-between;
+    }
+   
+    .project {
+      
+      background-color:	#FFF9C4;
+      color: black;
+    }
+    .project1{
+     width: 100%;
+
+      padding: 25px;
+      padding-top: 5px;
+      margin-left: 10px;
+      /* margin-right: 10px; */
+    }
+    .para {
+      line-height: 1.6;
+    }
+    
+
+    @media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+    .internship {
+      height: 450px;
+      width: 100%;
+      color: black;
+      background-image: url(./internship\ image.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+
+      /* mask-repeat: no-repeat; */
+    }
+    .intern {
+      padding-top: 30px;
+
+      padding-right: 80px;
+      padding-left: 70px;
+    }
+    .skills {
+      background-color: #E3F2FD;
+      color: black;
+    }
+    .skill {
+      padding: 30px;
+      padding-top: 5px;
+      margin-left: 10px;
+      line-height: 1.6;
+    }
+    .EPD{
+  background-color: rgb(250, 173, 173);
+  color: black;
+    }
+    .Education{
+     
+     padding: 30px;
+     padding-top: 5px;
+    }
+    .pd{
+       padding: 30px;
+        padding-top: 5px;
+    }
+    .degree{
+            display: flex;
+            justify-content: space-between;
+    }
+    .hsc{
+            display: flex;
+            justify-content: space-between;
+    }
+    .ssc{
+            display: flex;
+            justify-content: space-between;
+    }
+
+    header .div1 a{
+      text-decoration: none;
+      
+      margin: 0 10px;
+    }
+    header .div1 a img{
+      
+      width: 25px;
+      height: 25px;
+      
+    
+    } 
+ 
+ 
+
+.back-to-top {
+  color: #45c64a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-to-top:hover {
+  color: white;
+}
+
+  </style>
+  <body>
+    <div id="Home">
+      <header>
+        <nav>
+          <a href="#Home">Home</a>
+
+          <a href="#Internship">Internship</a>
+          <a href="#skills">Skills</a>
+          <a href="#Projects">Projects</a>
+          <a href="#E&PD">Education & Personal Details</a>
+        </nav>
+        <div class="div1">
+          <a href="https://www.linkedin.com/company/login/"><img src="./linkdin_logo.png" alt=""></a>
+          <a href="https://github.com/"><img src="./githubLogo.png" alt=""></a>
+          <a href="mailto:ransingnilesh7532@gmail.com"><img src="./email_logo.png" alt=""></a>
+        </div>
+      </header>
+ <!-- Home page -->
+      <section class="sec1">
+        <div class="text1">
+          <h1>Nilesh Ransing</h1>
+          <p>
+            My technical skills encompass HTML, CSS, C++, C, Java, JavaScript,
+            full-stack development. I am experienced with tools such as Github,
+            IntelliJ, VS Code, NetBeans and Eclipse. Additionally, I work with
+            libraries and frameworks including Spring, springboot, Reactjs.
+          </p>
+          <button>Let’s get Started</button>
+        </div>
+        <div class="img1">
+          <img src="./Nilesh_Photo.png" alt="" />
+        </div>
+      </section>
+
+     
+    </div>
+    <!-- Internship Page -->
+    <div id="Internship" class="internship">
+      <section class="intern">
+        <h2 style="font-size: 45px">
+          <em><u>Internship</u></em>
+        </h2>
+        <div>
+          <div class="ht">
+            <h3>Software Engineer Intern</h3>
+
+            <p>Feb 2023 - Mar 2023</p>
+          </div>
+          <h5>GLOBE MINDS TECHNOLOGIES PVT LTD</h5>
+          <p class="para">
+            • Working on software projects, utilizing java language to develop
+            desktop applications. <br />
+            • Created a Hostel Management application using java language
+            frameworks like a swing. <br />
+            • In these we study DBMS using HeidiSQL Tool
+
+          </p>
+          <p class="para">
+            Skills: Core Java · Java Database Connectivity (JDBC) · Java Swing ·
+            Eclipse
+          </p>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- Project page -->
+
+    <div id="Projects" class="project">
+      <section class="project1">
+        <h2 style="font-size: 45px">
+          <em><u>Project</u></em></h2>
+
+        <div class="">
+          <h3>1. Automated Hydroponics System</h3>
+          <p>Sep 2023 - May 2024</p>
+        </div>
+        <div class="para">
+          <p>
+            • In these project we Designed and built an automated hydroponic
+            system that improved plant growth. <br />
+            • Programmed microcontrollers (Arduino uno) to monitor and adjust
+            pH, nutrient levels, and environmental conditions automatically.
+            <br />
+            • Developed a user-friendly interface for real-time monitoring and
+            control of system parameters. <br />
+            • Developed data analysis framework to monitor and optimize growing
+            conditions.
+        
+          </p>
+          <p>Skills: C (Programming Language) · Arduino IDE · Electronics</p>
+        </div>
+
+        <!-- project 2 -->
+
+        <div class="">
+          <h3>2. GSM Based Motor Control</h3>
+          <p>Oct 2022 - Mar 2023</p>
+        </div>
+        <div class="para">
+          <p>
+            • The main of project that allows user to on and off DC motor using
+            SMS commands. <br />
+            • In these we using Arduino uno and GSM model are sent SMS commands
+            to control DC motor . <br />
+            • Developed GSM based system enabling remote control of motor
+            functions via SMS commands. <br />
+            • Successfully integrated GSM modules (SIM800) with microcontrollers
+            Arduino uno for seamless communication and motor control
+          </p>
+          <p>Skills: C (Programming Language) · Arduino IDE · Electronics</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="skill">
+        <h2 style="font-size: 45px">
+          <em><u> Skills</u></em></h2>
+        <h3>Technical Skills</h3>
+
+        <p>
+          <b>HTML:</b> HTML Tags, Attributes, Headings and Paragraphs, Links and
+          Navigation, Forms and Input, Embedding External Content. <br />
+
+          <b>CSS:</b> Box Model, CSS Colors and Backgrounds, Text Styling
+          Positioning, Flexbox, Grid Layout, Transitions and Animations. <br />
+          <b>JAVASCRIPT:</b> Basic Syntax and Data Types, Operators, Control
+          Flow Statements, Functions, Objects and Arrays. <br />
+          <b>C Language:</b> Data Types and Variables, Operators, Control
+          Structures, Functions, Arrays <br />
+
+          <b>Core Java:</b> Object-Oriented Programming (OOP) Principles
+          (Inheritance, Polymorphism, Abstraction, Encapsulation) Exception
+          Handling Multithreading and Concurrency Collections Framework (List,
+          Set, Map). <br />
+        </p>
+
+        <h3>Interpersonal Skills</h3>
+        <p><ul>
+          <li>Good Team Player</li>
+          <li>Quick Learner</li>
+          <li>Smart Work</li>
+          <li>Presentation Skills</li>
+        </ul></p>
+      </div>
+    </section>
+         
+    <!-- Education and personal details -->
+    <section  id="E&PD" class="EPD">
+      <div class="Education">
+        <h2 style="font-size: 45px">
+          <em><u>Education</u></em></h2>
+        
+        <div class="degree">
+          <p><b>Bachelor of Engineering</b> <br>
+             Electronic and Telecommunication
+
+          </p>
+          <p>74.70</p>
+          <p>June 2024 </p>
+        </div>
+
+        <div class="hsc">
+          <p><b>Higher SecondaryCertificate 12th</b></p>
+          <p>64.46</p>
+          <p>April 2020 </p>
+        </div>
+
+         <div class="ssc">
+          <p><b>Secondary School Certificate 10th</b></p>
+          <p>91.00</p>
+          <p>May 2018 </p>
+        </div>
+
+      </div>
+
+      <div class="pd">
+        <h2 style="font-size: 45px">
+          <em><u>Personal Details</u></em></h2>
+        <p><b>Name:</b> Nilesh Sanjay Ransing</p>
+        <p><b>DOB:</b> 01-09-2002</p>
+        <p><b>Married Status:</b> Unmarried</p>
+        <p><b>Address:</b>Takali Kade, Ahmednagar 413701</p>
+        <p><b>Hobbies:</b> Kho-Kho, Cricket ,Swimming</p>
+        <p><b>Languages: </b>Engish Hindi Marathi</p>
+      </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer>
+  <p>&copy; 2025 Nilesh Ransing. All rights reserved.</p>
+  <a href="#Home" class="back-to-top">Back to Top</a>
+</footer>
+
+  </body>
+</html>
